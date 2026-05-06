@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin } from 'lucide-react';
 import { navLinks } from '@/data';
 import { scrollTo } from '@/utils/scrollTo';

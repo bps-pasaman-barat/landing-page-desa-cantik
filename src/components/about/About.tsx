@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { BarChart3, CheckCircle2 } from 'lucide-react';
 import { featuresData } from '@/data';
