@@ -17,12 +17,13 @@ export const Gallery = () => {
         />
       </motion.div>
       <div className="relative z-10 container mx-auto px-6">
-        <div className="mb-12 flex flex-col items-end justify-between md:flex-row">
-          <div className="max-w-2xl">
+        <div className="mb-12 flex flex-col items-center justify-between md:flex-row md:items-end">
+          <div className="max-w-2xl text-center md:text-left">
             <h2 className="mb-2 text-sm font-bold tracking-wider text-emerald-600 uppercase">
               Dokumentasi
             </h2>
-            <h3 className="text-4xl font-extrabold text-slate-900 text-left">
+
+            <h3 className="text-4xl font-extrabold text-slate-900">
               Galeri Kegiatan
             </h3>
           </div>
