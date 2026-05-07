@@ -26,7 +26,7 @@ export const Footer = () => {
               <ul className="space-y-4">
                 {navLinks.map(link => (
                   <li key={link.name}>
-                    <button onClick={() => scrollTo(link.href)} className="text-slate-400 hover:text-emerald-400 transition-colors">
+                    <button onClick={() => scrollTo(link.href)} className="text-slate-400 hover:text-orange-400 transition-colors">
                       {link.name}
                     </button>
                   </li>
@@ -38,7 +38,7 @@ export const Footer = () => {
               <h4 className="text-white font-bold text-lg mb-6">Kontak</h4>
               <ul className="space-y-4 text-slate-400">
                 <li className="flex items-start gap-3">
-                  <MapPin className="w-5 h-5 text-emerald-500 mt-1 flex-shrink-0" />
+                  <MapPin className="w-5 h-5 text-orange-500 mt-1 flex-shrink-0" />
                   <span>Jl. Jendral Sudirman No. 123, Pasaman Barat, Sumatera Barat</span>
                 </li>
                 <li>Email: bps1312@bps.go.id</li>
@@ -50,8 +50,8 @@ export const Footer = () => {
           <div className="pt-8 border-t border-slate-800 text-center text-slate-500 text-sm flex flex-col md:flex-row justify-between items-center gap-4">
             <p>&copy; {new Date().getFullYear()} BPS Kabupaten Pasaman Barat. All rights reserved.</p>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-emerald-400 transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-emerald-400 transition-colors">Terms of Service</a>
+              <a href="#" className="hover:text-orange-400 transition-colors">Privacy Policy</a>
+              <a href="#" className="hover:text-orange-400 transition-colors">Terms of Service</a>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ export const Hero = () => {
             alt="Nature Background" 
             className="w-full h-full object-cover opacity-40"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-emerald-900/80 to-slate-900/70" />
+          <div className="absolute inset-0 bg-gradient-to-r from-orange-400/50 to-slate-900/70" />
         </div>
         
         {/* Parallax Decorations */}
@@ -34,11 +34,11 @@ export const Hero = () => {
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <div className="inline-block bg-emerald-500/20 backdrop-blur-md border border-emerald-400/30 rounded-full px-4 py-2 mb-6 text-emerald-300 font-medium text-sm">
+            <div className="inline-block bg-orange-500/20 backdrop-blur-md border border-orange-400/30 rounded-full px-4 py-2 mb-6 text-orange-300 font-medium text-sm">
               BPS Kabupaten Pasaman Barat
             </div>
             <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6">
-             LOREM <span className="text-emerald-400">IPSUM</span>
+             LOREM <span className="text-orange-400">IPSUM</span>
             </h1>
             <p className="text-lg md:text-xl text-slate-300 mb-10 leading-relaxed max-w-2xl">
              Pencanangan Desa Cinta Statistik, Pembinaan Statistik Sektoral, Standar Pelayanan Publik dan Keterbukaan Informasi Publik
@@ -47,7 +47,7 @@ export const Hero = () => {
               <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 border-white/20 text-white rounded-full px-8 py-6 text-lg backdrop-blur-sm" onClick={() => scrollTo('#qna')}>
                 Lihat Qna
               </Button>
-              <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white rounded-full px-8 py-6 text-lg shadow-lg shadow-emerald-500/30" onClick={() => scrollTo('#galeri-dokumentasi')}>
+              <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white rounded-full px-8 py-6 text-lg shadow-lg shadow-orange-500/30" onClick={() => scrollTo('#galeri-dokumentasi')}>
                 Lihat Galeri
               </Button>
             </div>

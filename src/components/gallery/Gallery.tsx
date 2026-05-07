@@ -19,7 +19,7 @@ export const Gallery = () => {
       <div className="relative z-10 container mx-auto px-6">
         <div className="mb-12 flex flex-col items-center justify-between md:flex-row md:items-end">
           <div className="max-w-2xl text-center md:text-left">
-            <h2 className="mb-2 text-sm font-bold tracking-wider text-emerald-600 uppercase">
+            <h2 className="mb-2 text-sm font-bold tracking-wider text-orange-600 uppercase">
               Dokumentasi
             </h2>
 
@@ -44,7 +44,7 @@ export const Gallery = () => {
                 alt={`Galeri ${idx + 1}`}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
-              <div className="absolute inset-0 flex items-center justify-center bg-emerald-900/40 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              <div className="absolute inset-0 flex items-center justify-center bg-orange-900/40 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/20 text-white shadow-lg backdrop-blur-md">
                   <img
                     src="/logo.png"

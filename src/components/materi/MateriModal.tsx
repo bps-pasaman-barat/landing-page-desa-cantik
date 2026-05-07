@@ -29,7 +29,7 @@ export const MateriModal = ({ materi }: MateriModalProps) => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent" />
           <div className="absolute bottom-0 left-0 p-8 sm:p-12">
-            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-emerald-500 font-bold text-white shadow-lg">
+            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-orange-500 font-bold text-white shadow-lg">
               {materi.id}
             </div>
             <h2 className="text-4xl sm:text-5xl font-black text-white drop-shadow-md">
@@ -40,7 +40,7 @@ export const MateriModal = ({ materi }: MateriModalProps) => {
 
         {/* DETAILS */}
         <div className="p-8 sm:p-12 text-slate-700">
-          <div className="prose prose-lg max-w-none prose-emerald">
+          <div className="prose prose-lg max-w-none prose-orange">
             <p className="text-xl font-medium leading-relaxed text-slate-800">
               {materi.description}
             </p>

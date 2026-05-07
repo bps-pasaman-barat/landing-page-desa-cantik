@@ -20,7 +20,7 @@ export const Materi = () => {
     >
       {/* HEADER */}
       <div className="mx-auto mb-16 max-w-4xl px-6 text-center">
-        <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-emerald-600">
+        <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-orange-600">
           Materi
         </h2>
 

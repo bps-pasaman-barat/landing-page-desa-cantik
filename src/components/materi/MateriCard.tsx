@@ -50,7 +50,7 @@ export const MateriCard = ({ materi, onOpen }: MateriCardProps) => {
       {/* CONTENT */}
       <CardContent className="flex flex-1 flex-col p-6 sm:p-8">
         <div className="mb-4 flex items-center gap-4">
-          <div className="flex h-10 w-10 sm:h-12 sm:w-12 shrink-0 items-center justify-center rounded-full bg-emerald-100 font-bold text-emerald-600">
+          <div className="flex h-10 w-10 sm:h-12 sm:w-12 shrink-0 items-center justify-center rounded-full bg-orange-100 font-bold text-orange-600">
             {materi.id}
           </div>
 
@@ -67,7 +67,7 @@ export const MateriCard = ({ materi, onOpen }: MateriCardProps) => {
       <CardFooter className="p-6 sm:p-8 pt-0 mt-auto">
         <Button
           onClick={() => onOpen(materi)}
-          className="w-full h-12 rounded-xl bg-emerald-600 font-semibold text-white transition-all hover:bg-emerald-700 hover:shadow-lg active:scale-95"
+          className="w-full h-12 rounded-xl bg-orange-600 font-semibold text-white transition-all hover:bg-orange-700 hover:shadow-lg active:scale-95"
         >
           Selengkapnya
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>

@@ -22,7 +22,7 @@ const DaftarHadir = () => {
             <div className="container mx-auto px-6">
                 <div className="mb-8 flex flex-col justify-between md:flex-row">
                     <div className="max-w-2xl">
-                        <h2 className="mb-2 text-sm font-bold tracking-wider text-emerald-600 uppercase">
+                        <h2 className="mb-2 text-sm font-bold tracking-wider text-orange-600 uppercase">
                             Kehadiran
                         </h2>
                         <h3 className="text-3xl font-extrabold text-slate-900 md:text-4xl">
@@ -53,7 +53,7 @@ const DaftarHadir = () => {
                                     <TableCell className="font-medium text-slate-900">{item.name}</TableCell>
                                     <TableCell className="text-slate-600">{item.role}</TableCell>
                                     <TableCell className="text-center">
-                                        <span className={`inline-flex items-center justify-center rounded-full px-3 py-1 text-xs font-semibold ${item.status === 'Hadir' ? 'bg-emerald-100 text-emerald-800' : 'bg-rose-100 text-rose-800'}`}>
+                                        <span className={`inline-flex items-center justify-center rounded-full px-3 py-1 text-xs font-semibold ${item.status === 'Hadir' ? 'bg-orange-100 text-orange-800' : 'bg-rose-100 text-rose-800'}`}>
                                             {item.status}
                                         </span>
                                     </TableCell>

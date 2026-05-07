@@ -11,7 +11,7 @@ import { Qna } from "./components/qna/qna"
 
 export function App() {
   return (
-    <div className="min-h-screen overflow-x-hidden bg-slate-50 font-sans text-slate-900 selection:bg-emerald-500 selection:text-white">
+    <div className="min-h-screen overflow-x-hidden bg-slate-50 font-sans text-slate-900 selection:bg-orange-500 selection:text-white">
       <Navbar />
 
       {/* Wrapper for Falling Leaves Parallax Layer */}
@@ -23,8 +23,8 @@ export function App() {
         </div>
 
         <Hero />
-        < Materi/>
-      <Qna />
+        <Materi />
+        <Qna />
         <DaftarHadir />
         <Gallery />
       </div>

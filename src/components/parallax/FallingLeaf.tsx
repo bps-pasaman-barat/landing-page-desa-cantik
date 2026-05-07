@@ -33,7 +33,7 @@ export const FallingLeaf = () => {
 
   return (
     <motion.div
-      className="absolute text-emerald-500/30"
+      className="absolute text-orange-500/30"
       style={{
         left: `${randomX}%`,
         top: `${randomY}%`,

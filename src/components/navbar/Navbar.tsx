@@ -37,7 +37,7 @@ export const Navbar = () => {
               <button
                 key={link.name}
                 onClick={() => scrollTo(link.href)}
-                className={`font-medium transition-colors hover:text-emerald-500 ${isScrolled ? "text-slate-600" : "text-slate-100"}`}
+                className={`font-medium transition-colors hover:text-orange-500 ${isScrolled ? "text-slate-600" : "text-slate-100"}`}
               >
                 {link.name}
               </button>
