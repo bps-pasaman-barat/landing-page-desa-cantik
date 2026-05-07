@@ -22,7 +22,7 @@ export const Gallery = () => {
             <h2 className="mb-2 text-sm font-bold tracking-wider text-emerald-600 uppercase">
               Dokumentasi
             </h2>
-            <h3 className="text-4xl font-extrabold text-slate-900">
+            <h3 className="text-4xl font-extrabold text-slate-900 text-left">
               Galeri Kegiatan
             </h3>
           </div>

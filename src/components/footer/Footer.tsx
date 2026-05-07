@@ -9,8 +9,8 @@ export const Footer = () => {
           <div className="grid md:grid-cols-4 gap-12 mb-16">
             <div className="md:col-span-2">
               <div className="flex items-center gap-2 mb-6">
-                <img src="/logo.png" alt="Logo" className="w-10 h-10 object-contain" />
-                <span className="font-bold text-2xl tracking-tight text-white">Desa Cinta Statistik</span>
+                <img src="/bps.png" alt="Logo" className="w-10 h-10 object-contain" />
+                <span className="font-bold text-2xl tracking-tight text-white">BPS Pasaman Barat</span>
               </div>
               <p className="text-slate-400 mb-6 max-w-md leading-relaxed">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.

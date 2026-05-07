@@ -28,3 +28,10 @@ export interface NavLink {
   name: string;
   href: string;
 }
+
+export interface MateriItem {
+  id: number;
+  title: string;
+  description: string;
+  imageUrl: string;
+}

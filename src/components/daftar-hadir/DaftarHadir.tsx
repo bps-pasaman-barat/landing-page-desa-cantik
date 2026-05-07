@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Table,
   TableBody,
@@ -10,11 +9,11 @@ import {
 } from "@/components/ui/table";
 
 const dummyData = [
-  { id: 1, name: "John Doe", role: "Peserta", status: "Hadir", time: "08:00" },
-  { id: 2, name: "John Doe", role: "Peserta", status: "Hadir", time: "08:15" },
-  { id: 3, name: "Joh Doe", role: "Panitia", status: "Hadir", time: "07:30" },
-  { id: 4, name: "John Doe", role: "Peserta", status: "Tidak Hadir", time: "-" },
-  { id: 5, name: "John Doe", role: "Peserta", status: "Hadir", time: "08:05" },
+  { id: 1, name: "John Doe", role: "Peserta", status: "Hadir"},
+  { id: 2, name: "John Doe", role: "Peserta", status: "Hadir"},
+  { id: 3, name: "Joh Doe", role: "Panitia", status: "Hadir"},
+  { id: 4, name: "John Doe", role: "Peserta", status: "Tidak Hadir"},
+  { id: 5, name: "John Doe", role: "Peserta", status: "Hadir"},
 ];
 
 const DaftarHadir = () => {
@@ -44,7 +43,7 @@ const DaftarHadir = () => {
                                 <TableHead className="font-semibold text-slate-600">Nama</TableHead>
                                 <TableHead className="font-semibold text-slate-600">Peran</TableHead>
                                 <TableHead className="font-semibold text-slate-600 text-center">Status</TableHead>
-                                <TableHead className="text-right font-semibold text-slate-600">Waktu Kehadiran</TableHead>
+                               
                             </TableRow>
                         </TableHeader>
                         <TableBody>
@@ -58,7 +57,7 @@ const DaftarHadir = () => {
                                             {item.status}
                                         </span>
                                     </TableCell>
-                                    <TableCell className="text-right text-slate-600 font-medium">{item.time}</TableCell>
+                                   
                                 </TableRow>
                             ))}
                         </TableBody>
