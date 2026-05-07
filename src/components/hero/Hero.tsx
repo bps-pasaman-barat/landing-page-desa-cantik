@@ -44,11 +44,11 @@ export const Hero = () => {
              Pencanangan Desa Cinta Statistik, Pembinaan Statistik Sektoral, Standar Pelayanan Publik dan Keterbukaan Informasi Publik
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white rounded-full px-8 py-6 text-lg shadow-lg shadow-emerald-500/30" onClick={() => scrollTo('#galeri')}>
-                Lihat Galeri
+              <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 border-white/20 text-white rounded-full px-8 py-6 text-lg backdrop-blur-sm" onClick={() => scrollTo('#qna')}>
+                Lihat Qna
               </Button>
-              <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 border-white/20 text-white rounded-full px-8 py-6 text-lg backdrop-blur-sm" onClick={() => scrollTo('#kegiatan')}>
-                Lihat Kegiatan
+              <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white rounded-full px-8 py-6 text-lg shadow-lg shadow-emerald-500/30" onClick={() => scrollTo('#galeri-dokumentasi')}>
+                Lihat Galeri
               </Button>
             </div>
           </motion.div>
