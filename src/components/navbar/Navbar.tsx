@@ -13,8 +13,8 @@ export const Navbar = () => {
       <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'}`}>
         <div className="container mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollTo('#hero')}>
-            <img src="/logo.png" alt="Logo Desa Cinta Statistik" className="w-8 h-8 object-contain" />
-            <span className={`font-bold text-xl tracking-tight ${isScrolled ? 'text-slate-900' : 'text-slate-900 md:text-white'}`}>Desa Cinta Statistik</span>
+            <img src="/bps.png" alt="Logo BPS" className="w-8 h-8 object-contain" />
+            <span className={`font-bold text-xl tracking-tight ${isScrolled ? 'text-slate-900' : 'text-slate-900 md:text-white'}`}>BPS Pasaman Barat</span>
           </div>
           
           {/* Desktop Nav */}

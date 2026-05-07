@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import { statsData } from '@/data';
 
-export const Stats = () => {
+export const Qna = () => {
   return (
-      <section id="statistik" className="py-20 relative bg-emerald-600 overflow-hidden">
+      <section id="qna" className="py-20 relative bg-emerald-600 overflow-hidden">
         <div className="absolute inset-0">
           {/* Decorative shapes */}
           <div className="absolute -top-24 -right-24 w-96 h-96 bg-emerald-500 rounded-full blur-3xl opacity-50"></div>

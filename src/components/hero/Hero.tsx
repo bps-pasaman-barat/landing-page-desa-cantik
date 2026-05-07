@@ -38,7 +38,7 @@ export const Hero = () => {
               BPS Kabupaten Pasaman Barat
             </div>
             <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6">
-             DOKUMENTASI <span className="text-emerald-400">ACARA</span>
+             LOREM <span className="text-emerald-400">IPSUM</span>
             </h1>
             <p className="text-lg md:text-xl text-slate-300 mb-10 leading-relaxed max-w-2xl">
              Pencanangan Desa Cinta Statistik, Pembinaan Statistik Sektoral, Standar Pelayanan Publik dan Keterbukaan Informasi Publik

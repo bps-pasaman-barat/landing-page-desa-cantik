@@ -1,13 +1,13 @@
 import { Navbar } from "@/components/navbar/Navbar"
 import { Hero } from "@/components/hero/Hero"
-import { About } from "@/components/about/About"
-import { Activities } from "@/components/activities/Activities"
+import DaftarHadir from "@/components/daftar-hadir/DaftarHadir"
 import { Gallery } from "@/components/gallery/Gallery"
-import { Stats } from "@/components/stats/Stats"
+
 import { Testimonials } from "@/components/testimonials/Testimonials"
-import { CTA } from "@/components/cta/CTA"
 import { Footer } from "@/components/footer/Footer"
 import { FallingLeaf } from "@/components/parallax/FallingLeaf"
+import { Materi } from "./components/materi/materi"
+import { Qna } from "./components/qna/qna"
 
 export function App() {
   return (
@@ -23,14 +23,14 @@ export function App() {
         </div>
 
         <Hero />
-        <About />
-        <Activities />
+        < Materi/>
+      <Qna />
+        <DaftarHadir />
         <Gallery />
       </div>
 
-      <Stats />
       <Testimonials />
-      <CTA />
+
       <Footer />
     </div>
   )
