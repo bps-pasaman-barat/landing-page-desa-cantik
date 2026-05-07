@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react"
 import { navLinks } from "@/data"
 import { useScrollState } from "@/hooks/useScrollState"
 import { scrollTo } from "@/utils/scrollTo"
+import { Drawer, DrawerContent } from "@/components/ui/drawer"
 
 export const Navbar = () => {
   const isScrolled = useScrollState(50)
@@ -66,9 +67,9 @@ export const Navbar = () => {
       </nav>
 
       {/* Mobile Menu */}
-      {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-40 bg-white px-6 pt-24 md:hidden">
-          <div className="flex flex-col gap-6">
+      <Drawer open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
+        <DrawerContent className="md:hidden">
+          <div className="flex flex-col gap-6 p-6 pb-12">
             {navLinks.map((link) => (
               <button
                 key={link.name}
@@ -81,8 +82,8 @@ export const Navbar = () => {
               </button>
             ))}
           </div>
-        </div>
-      )}
+        </DrawerContent>
+      </Drawer>
     </>
   )
 }
