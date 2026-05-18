@@ -30,31 +30,35 @@ export const featuresData: Feature[] = [
 
 
 export const galleryData: string[] = [
-  "https://placehold.co/600x400/png",
-  "https://placehold.co/600x400/png",
-  "https://placehold.co/600x400/png",
-  "https://placehold.co/600x400/png",
-  "https://placehold.co/600x400/png",
-  "https://placehold.co/600x400/png",
-  "https://placehold.co/600x400/png",
-  "https://placehold.co/600x400/png",
+  "/galery/absensi-1.png",
+  "/galery/penyerahan-seritfikat.png",
+  "/galery/random-10.png",
+  "/galery/random-2.png",
+  "/galery/random-3.png",
+  "/galery/random-4.png",
+  "/galery/random-5.png",
+  "/galery/random-6.png",
+  "/galery/random-9.png",
+  "/galery/random-11.png",
+  "/galery/random-12.png",
+  "/galery/random.png",
 ]
 
 export const testimonialsData: Testimonial[] = [
   {
-    name: "John Doe",
-    role: "peran",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna.",
+    name: "H. Yulianto, SH.M,M",
+    role: "Bupati Pasaman Barat",
+    text: "",
   },
   {
-    name: "John Doe",
-    role: "peran",
-    text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+    name: "Kanma",
+    role: "Camat Luhak Nanduo",
+    text: "",
   },
   {
-    name: "John Doe",
-    role: "peran",
-    text: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.",
+    name: "Johny Hendri",
+    role: "Bappelit Bangda",
+    text: "",
   },
 ]
 
